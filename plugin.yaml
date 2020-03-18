@@ -1,0 +1,9 @@
+name: "helm-ghe"
+version: "1.0.0"
+description: |-
+  Let's you use private GHE repositories easily alongside public Github repos
+downloaders:
+- command: "getfile.sh"
+  protocols:
+    - "http"
+    - "https"
