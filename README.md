@@ -12,8 +12,8 @@ This plugin makes it possible to use a private/public repository on Github Enter
 You must set ${HELM_GHE_HOSTNAME} to the FQDN for your Github Enterprise (GHE) server and ${HELM_GHE_TOKEN} to a valid personal access token for the GHE server at ${HELM_GHE_HOSTNAME}.
 
 ```bash
-echo "HELM_GHE_TOKEN=123456" >> ~/.bashrc
-echo "HELM_GHE_HOSTNAME=private_ghe.example.org" >> ~/.bashrc
+echo "export HELM_GHE_TOKEN=123456" >> ~/.bashrc
+echo "export HELM_GHE_HOSTNAME=private_ghe.example.org" >> ~/.bashrc
 source ~/.bashrc
 ```
 
